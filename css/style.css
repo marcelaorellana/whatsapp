@@ -1,0 +1,155 @@
+
+body{
+	background-color: pink;
+	
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+.iconos-perfil i{
+	font-size: 30px;
+	margin: 5px;
+	color: gray;
+}
+#lista{
+	background-color: white;
+	height: 100vh;
+	border-right: 1px solid gray;
+}
+#chat1, #chat2, #chat3{
+	background-color: pink;
+	height: 100vh;
+	position: relative;
+
+}
+
+.foto-redonda{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+nav{
+background-color: lightgray;
+}
+#nav-lista{
+	border-bottom: 1px solid gray;
+	width: 100%;
+	padding: 5px;
+}
+#nav-buscar{
+	padding: 10px;
+	border-bottom: 1px solid lightgray;
+}
+#nav-buscar input{
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid lightgray;
+}
+.area-perfil{
+	display: flex;
+	justify-content: row;
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+	padding: 10px 5px;
+}
+#nav-personas{
+	padding: 0;
+}
+#nav-chat{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+#nav-chat i{
+	font-size: 30px;
+	margin: 5px;
+	color: gray
+}
+
+
+.hablar-input{
+	display: flex;
+	justify-content: row;
+
+}
+.hablar-input input{
+	width: 90%;
+	border-radius: 4px;
+	border: none;
+	margin: 5px;
+}
+.hablar-area{
+	
+	position: fixed;
+	width: 67.766666%;
+	bottom: 0;
+	right: 0;
+	background-color: lightgray;
+	padding: 10px 0;
+
+}
+.caja-otro{
+	background-color: white;
+	width: 40%;
+	padding: 10px 20px;
+	border-radius: 4px;
+	margin: 5px;
+}
+
+.hora{
+	font-size: 12px;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+.chat-p{
+	margin: 0;
+}
+.block-a{
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+.block-b{
+	text-align: right;
+	width: 100%;
+}
+.caja-mio{
+	background-color: lightgreen;
+	width: auto;
+	padding: 10px 20px;
+	
+	border-radius: 4px;
+	margin: 5px;
+	display: inline-block;
+	text-align: left;
+}
+#chat2{
+	display: none;
+}
+#chat3{
+	display: none;
+}
+
+
+.perfil-izq{
+	display: flex;
+	justify-content: space-between;
+}
+.perfil-text h5{
+	padding: 0;
+	margin: 5px 0 0 5px;
+	font-size: 16px;
+
+}
+.perfil-text p{
+	margin: 0 0 0 5px;
+}
+.pefil-foto{
+	display: flex;
+	justify-content: left;
+}
